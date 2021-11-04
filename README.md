@@ -3,7 +3,31 @@
 Safari on IOS 15 has a new 'feature'. It hides address bar when you swipe down, and when you swipe up it shows it again.
 In this repo you can find my dirty workaround, which is solving this issue.
 
+[Go and test it!](https://andriibarvynko.github.io/ios15_scroll_test/src/index.html)
+
 How it works:
+
+```html
+<head>
+    <meta name="viewport" content="width=device-width, height=device-height"/>
+</head>
+<body>
+    <div class="outer-content">
+        <div id="content">
+            <!-- Scrollable content here -->
+        </div>
+    </div>
+</body>
+```
+
+```css
+.outer-content {
+    height: 100vh;
+    position:fixed;
+    overflow-y:scroll;
+}
+```
+
 
 <img alt="preview" height="960" src="./img/test.gif" width="443"/>
 
