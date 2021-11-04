@@ -5,6 +5,8 @@ In this repo you can find my dirty workaround, which is solving this issue.
 
 [Go and test it!](https://andriibarvynko.github.io/ios15_scroll_test/src/index.html)
 
+Personally I've tested this on iPhone 11 Pro and iPhone 8+, iOS 15.1
+
 ### How it works:
 
 You need to use viewport meta and the following structure:
