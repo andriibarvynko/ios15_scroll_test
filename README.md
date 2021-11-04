@@ -5,7 +5,9 @@ In this repo you can find my dirty workaround, which is solving this issue.
 
 [Go and test it!](https://andriibarvynko.github.io/ios15_scroll_test/src/index.html)
 
-How it works:
+### How it works:
+
+You need to use viewport meta and the following structure:
 
 ```html
 <head>
@@ -20,6 +22,8 @@ How it works:
 </body>
 ```
 
+And the following css for the outer container:
+
 ```css
 .outer-content {
     height: 100vh;
@@ -28,8 +32,9 @@ How it works:
 }
 ```
 
+How it looks like:
 
-<img alt="preview" height="960" src="./img/test.gif" width="443"/>
+<img alt="preview" height="960" src="./img/preview.gif" width="443"/>
 
 ### Useful links
 
